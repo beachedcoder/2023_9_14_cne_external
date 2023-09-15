@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: demo-ui
-        image: beachcoder/external:2
+        image: beachcoder/external:3
         env: 
         - name: SERVER
-          value: "http://demo-service:8082"
+          value: "http://demo-service.dev:8082"
         ports:
         - containerPort: 8080
             
