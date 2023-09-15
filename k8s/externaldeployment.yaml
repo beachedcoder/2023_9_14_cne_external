@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-ui
-        image: gcr.io/roidtc-project300/external-image:v1.0.0
+        image: beachcoder/external:2
         env: 
         - name: SERVER
           value: "http://demo-service:8082"
